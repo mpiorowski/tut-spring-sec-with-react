@@ -2,6 +2,4 @@
 .idea
 */node_modules
 *.iml
-react-tictactoe/node_modules
-react-springdata/src/main/resources/static/built/bundle.js
-react-springdata/src/main/resources/static/built/bundle.js.map
+docker/_mysql
