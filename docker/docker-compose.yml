@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  mysql:
+    container_name: mysql-react
+    image: mysql:5.7.23
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql
+      MYSQL_DATABASE: rss.app
+    ports:
+      - "3306:3306"
+    volumes:
+    - ./_mysql:/var/lib/mysql
